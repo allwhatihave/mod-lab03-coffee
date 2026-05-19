@@ -1,5 +1,7 @@
-// Copyright 2024 UNN
+// Copyright 2026 UNN
 #include "../include/Automata.h"
+#include <string>
+#include <vector>
 
 Automata::Automata() {
     cash = 0;

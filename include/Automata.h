@@ -1,3 +1,4 @@
+// Copyright 2026 UNN
 #pragma once
 #include <string>
 #include <vector>
@@ -11,14 +12,14 @@ enum class STATES {
 };
 
 class Automata {
-private:
+ private:
     int cash;
     std::vector<std::string> menu;
     std::vector<int> prices;
     STATES state;
     int chosen_beverage;
 
-public:
+ public:
     Automata();
     void on();
     void off();

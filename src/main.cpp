@@ -1,3 +1,4 @@
+// Copyright 2026 UNN
 #include <iostream>
 #include "../include/Automata.h"
 
@@ -12,8 +13,7 @@ int main() {
     if (machine.check()) {
         machine.cook();
         machine.finish();
-    }
-    else {
+    } else {
         machine.cancel();
     }
 

@@ -1,3 +1,4 @@
+// Copyright 2026 UNN
 #include <gtest/gtest.h>
 #include "../include/Automata.h"
 
